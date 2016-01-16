@@ -4,7 +4,7 @@
 #include <bsd/sys/tree.h>
 #include <sys/time.h>
 
-#define   EXPIRED  3
+#define   EXPIRED  3 #in seconds
 
 struct list_el {
    SPLAY_ENTRY(list_el) entry;
