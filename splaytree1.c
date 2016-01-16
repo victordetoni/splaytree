@@ -4,6 +4,8 @@
 #include <bsd/sys/tree.h>
 #include <sys/time.h>
 
+define   EXPIRED  3
+
 struct list_el {
    SPLAY_ENTRY(list_el) entry;
    time_t idx;
@@ -50,7 +52,7 @@ void *addNumber() {
 
          i++;
          var = SPLAY_MIN(inttree, &head);
-            if((tv.tv_sec - var->tv.tv_sec) > 3) {
+            if((tv.tv_sec - var->tv.tv_sec) > EXPIRED) {
                 SPLAY_REMOVE(inttree, &head, var);
                 free(var);
             }
