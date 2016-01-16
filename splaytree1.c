@@ -28,9 +28,7 @@ SPLAY_PROTOTYPE(inttree2, list_el, entry, intcmp);
 SPLAY_GENERATE(inttree2, list_el, entry, intcmp);
 
 long double i = 0;
-
 struct list_el *curr, *var;
-
 struct timeval tv;
 
 void *gettime() {
