@@ -7,17 +7,15 @@
  
  Compile and run
 -----------
+
+#### FreeBSD
+
+    gcc -pthread splaytree1.c -o splaytree1
  
- ## FreeBSD:
+    ./splaytree1
  
- gcc -pthread splaytree1.c -o splaytree1
+#### Ubuntu
  
- ./splaytree1
- 
- ## Ubuntu:
- 
- apt-get install libbsd-dev
- 
- gcc -pthread splaytree1.c -o splaytree1
- 
- ./splaytree1
+    apt-get install libbsd-dev
+    gcc -pthread splaytree1.c -o splaytree1
+    ./splaytree1
