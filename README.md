@@ -8,13 +8,13 @@
  Compile and run
 -----------
  
- FreeBSD:
+ ##FreeBSD:
  
  gcc -pthread splaytree1.c -o splaytree1
  
  ./splaytree1
  
- Ubuntu:
+ ##Ubuntu:
  
  apt-get install libbsd-dev
  
