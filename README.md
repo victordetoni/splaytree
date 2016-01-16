@@ -1,5 +1,5 @@
 # splaytree examples
- splay tree is a self-adjusting binary search tree with the additional property that recently accessed elements are quick to access again
+ splay tree is a self-adjusting binary search tree with the additional property that recently accessed elements are quick to access again. About: https://en.wikipedia.org/wiki/Splay_tree
  
  Example code in C that include new items in the memory and remove expired items.
  
