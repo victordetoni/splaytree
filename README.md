@@ -5,8 +5,8 @@
  
  The main goal of this code is measure how many entries per second is included.
  
- To run:
- ----------
+ Installation
+-----------
  
  FreeBSD:
  
