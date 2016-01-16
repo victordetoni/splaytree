@@ -5,7 +5,7 @@
  
  The main goal of this code is measure how many entries per second is included.
  
- Compile and run
+Compile and run
 -----------
 
 #### FreeBSD 10.x
