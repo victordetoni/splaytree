@@ -11,7 +11,6 @@
 #### FreeBSD
 
     gcc -pthread splaytree1.c -o splaytree1
- 
     ./splaytree1
  
 #### Ubuntu
