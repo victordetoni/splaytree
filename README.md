@@ -8,9 +8,9 @@
  Compile and run
 -----------
 
-#### FreeBSD
+#### FreeBSD 10.x
 
-    gcc -pthread splaytree1.c -o splaytree1
+    clang -pthread splaytree1.c -o splaytree1
     ./splaytree1
  
 #### Ubuntu
