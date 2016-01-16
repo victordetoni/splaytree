@@ -42,19 +42,19 @@ void *addNumber() {
 
    for(;;) {
          struct list_el find;
-        curr = (struct list_el *)malloc(sizeof(struct list_el));
-        curr->val1 = i+i;
-        curr->tv.tv_sec = tv.tv_sec;
-        curr->idx = i;
-        SPLAY_INSERT(inttree, &head, curr);
+         curr = (struct list_el *)malloc(sizeof(struct list_el));
+         curr->val1 = i+i;
+         curr->tv.tv_sec = tv.tv_sec;
+         curr->idx = i;
+         SPLAY_INSERT(inttree, &head, curr);
 
-        i++;
-        var = SPLAY_MIN(inttree, &head);
+         i++;
+         var = SPLAY_MIN(inttree, &head);
             if((tv.tv_sec - var->tv.tv_sec) > 3) {
                 SPLAY_REMOVE(inttree, &head, var);
                 free(var);
             }
-        var = SPLAY_MAX(inttree, &head);
+         var = SPLAY_MAX(inttree, &head);
    }
 }
 
