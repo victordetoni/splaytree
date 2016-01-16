@@ -3,7 +3,7 @@
  
  Example code in C that include new items in the memory and remove expired items.
  
- The main goal of this code is to measure how many entries per second is included and doesn't fill the all memory available (memory recommended: 4GB RAM)
+ The main goal of this code is to measure how many entries per second is included and doesn't fill the available memory (memory recommended: 4GB RAM)
  
 Compile and run
 -----------
