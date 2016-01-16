@@ -5,15 +5,19 @@
  
  The main goal of this code is measure how many entries per second is included.
  
- Installation
+ Compile and run
 -----------
  
  FreeBSD:
  
  gcc -pthread splaytree1.c -o splaytree1
  
+ ./splaytree1
+ 
  Ubuntu:
  
  apt-get install libbsd-dev
  
  gcc -pthread splaytree1.c -o splaytree1
+ 
+ ./splaytree1
